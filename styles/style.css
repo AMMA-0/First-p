@@ -438,6 +438,7 @@ footer .container .last .form-address .subscribe {
   font-size: 17px;
   height: 40px;
   width: 186px;
+  cursor: pointer;
 }
 footer .container .last .form-address input {
   width: 270px;
