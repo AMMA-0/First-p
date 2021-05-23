@@ -498,9 +498,6 @@ footer .last-p {
     right: 43px;
     top: 98%;
   }
-  header .container nav a:hover {
-    color: black;
-  }
   header .container nav li {
     margin: 14px 23px;
     width: 100%;
@@ -640,7 +637,10 @@ footer .last-p {
     justify-content: flex-start;
     flex-direction: column;
     margin-bottom: 15px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 79f0b390fb251ffd601cbe971f1244c1cd5a44ec
   }
   .contact .contact-us .top-form ul {
     position: absolute;
