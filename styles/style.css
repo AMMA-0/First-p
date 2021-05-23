@@ -1,0 +1,742 @@
+/* start Global Rules */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "Changa", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* end global rules */
+/* Start header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+header {
+  position: absolute;
+}
+header .container .logo img {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  left: 8%;
+  width: 130px;
+  margin-top: 10px;
+}
+header .container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  right: 40%;
+  position: absolute;
+  width: 0%;
+  top: 50%;
+}
+header .container nav li {
+  display: flex;
+  margin: 14px 40px;
+}
+header .container nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+header .container nav a:hover {
+  content: "";
+  color: rgb(0, 0, 0);
+}
+header .container .right-h a:hover {
+  content: "";
+  color: black;
+}
+header .container .right-h {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
+  top: 85%;
+  width: 150px;
+}
+header .container .right-h a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+header .container .search {
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  right: 0;
+  top: 30%;
+}
+/* end header */
+/* start landing */
+.landing {
+  background: url(../images/banner-bg.png);
+  background-position: center;
+  min-height: 100vh;
+}
+.landing .overlay img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  width: 278px;
+}
+.landing .text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 100px;
+}
+.landing .text .content h2 {
+  font-style: bold;
+  color: black;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+.landing .text .content h2 span {
+  color: white;
+}
+.landing .text .content p {
+  color: white;
+  height: 2;
+  width: 30%;
+  font-size: 15px;
+}
+.landing .text .content .button-one a {
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  position: absolute;
+  padding: 10px 40px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.landing .text .content .button-tow a {
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+  padding: 10px 40px;
+  font-size: 15px;
+  text-decoration: none;
+  left: 180px;
+}
+
+/* end landing */
+/* main-head */
+.main-head .container {
+  margin-top: 100px;
+  position: absolute;
+  top: 125%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 100px;
+  width: 85%;
+  height: 50%;
+}
+.main-head .container h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.main-head .container span {
+  background-color: #fee421;
+  color: white;
+  padding: 0 5px;
+}
+.main-head .container .about p {
+  font-size: 15px;
+  color: #525050;
+  padding: 15px 0px;
+}
+.main-head .container .about-text {
+  background-color: #333333;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  margin-bottom: 40px;
+}
+.main-head .container .about-text p {
+  padding-left: 20px;
+  position: absolute;
+  top: 20%;
+  width: 50%;
+  line-height: 1.2;
+  font-size: 17px;
+  color: white;
+}
+.main-head .container .about-text .button-three a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-top: 70px;
+  position: absolute;
+  font-size: 15px;
+  text-decoration: none;
+  left: 0;
+  padding: 15px 30px;
+  top: 58%;
+  margin-left: 20px;
+}
+.main-head .container .about-text .small-table img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: -15%;
+  width: 345px;
+}
+
+/* end-head */
+/* start-head three */
+.head-three .container {
+  margin-top: 1000px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 100px;
+  width: 85%;
+  height: 50%;
+}
+.head-three .container h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.head-three .container span {
+  background-color: #fee421;
+  color: white;
+  padding: 0 10px;
+}
+.head-three .container p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #525050;
+}
+.our-section {
+  margin-top: 1000px;
+}
+.our-section .gallary {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.our-section .gallary .box {
+  flex-basis: 33%;
+}
+.our-section .gallary .box img {
+  width: 100%;
+  height: 350px;
+}
+.contact .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.contact .container .contact-us {
+  background-color: #fee421;
+  width: 100%;
+  padding: 60px;
+}
+.contact .container .contact-us h4 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  width: 100%;
+  font-style: normal;
+}
+.contact .contact-us .top-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.contact .contact-us .top-form ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.contact .contact-us .top-form li {
+  padding-right: 31px;
+}
+.contact .contact-us .top-form li i {
+  font-size: 32px;
+  color: black;
+}
+.contact .contact-us .top-form form {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact .contact-us form label {
+  width: 100%;
+  border: 0px;
+  color: white;
+}
+.contact .contact-us form input {
+  padding: 5px;
+  border: 0;
+  margin-right: 30px;
+}
+.contact .contact-us .under-form {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.contact .contact-us .under-form textarea {
+  padding-top: 12px;
+  padding-left: 6px;
+  border: 0;
+  margin-right: 30px;
+  color: #757474;
+  margin-top: -13px;
+}
+.contact .contact-us .under-form a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 2px 83px;
+  margin: -4px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  header .container nav .menu {
+    display: none;
+  }
+  .header .container {
+    min-width: 100%;
+  }
+}
+
+/* end head-three */
+footer .container {
+  width: 100%;
+  background-color: #4e4e4e;
+  height: 400px;
+}
+footer .container .menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  padding-top: 60px;
+}
+footer .container .top {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer .container .top a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+}
+footer .container .top a:hover {
+  color: #fee421;
+  transition: 0.3s;
+}
+footer .container .address {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 60px;
+}
+footer .container .address h2 {
+  position: absolute;
+  left: 10%;
+  font-size: 18px;
+}
+footer .container .address h3 {
+  position: absolute;
+  right: 40%;
+  font-size: 18px;
+}
+footer .container .last {
+  display: flex;
+  padding-top: 40px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container .last ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  position: absolute;
+  left: 12%;
+}
+footer .container .last ul i {
+  color: white;
+  font-size: 25px;
+  padding-right: 10px;
+}
+footer .container .last li {
+  padding-right: 35px;
+}
+footer .container .last .form-address {
+  position: absolute;
+  right: 16%;
+  display: flex;
+}
+footer .container .last .form-address .subscribe {
+  background-color: #fee421;
+  color: white;
+  font-size: 17px;
+  height: 40px;
+  width: 186px;
+}
+footer .container .last .form-address input {
+  width: 270px;
+  height: 40px;
+}
+footer .last-p {
+  background-color: #fee421;
+  color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Fix mobile */
+@media (max-width: 768px) {
+  header {
+    position: unset;
+  }
+  header .container {
+    width: 100%;
+    display: flex;
+  }
+  header .container .logo img {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    padding-left: 15px;
+    width: 150px;
+  }
+  header .container .right-h {
+    visibility: hidden;
+  }
+  .header .container nav {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    right: 0;
+  }
+  header .container nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+  }
+  header .container nav ul {
+    display: none;
+    background-color: #fbc21a;
+    z-index: 1;
+  }
+  header .container nav .menu:hover + ul {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    position: absolute;
+    right: 43px;
+    top: 98%;
+  }
+  header .container nav a:hover {
+    color: black;
+  }
+  header .container nav li {
+    margin: 14px 23px;
+    width: 100%;
+  }
+  header .container nav a {
+    font-size: 30px;
+  }
+  /* end header */
+
+  /* landing */
+
+  .landing .overlay img {
+    position: absolute;
+    bottom: 50%;
+    width: 230px;
+    margin: 12px;
+  }
+  .landing .text {
+    margin: 0;
+    width: 100%;
+  }
+  .landing .text .content {
+    position: absolute;
+    left: 0;
+    top: 163px;
+  }
+  .landing .text .content h2 {
+    font-size: 53px;
+    position: absolute;
+    left: 4%;
+    top: -268%;
+  }
+  .landing .text .content p {
+    color: white;
+    height: 2;
+    width: 100%;
+    font-size: 15px;
+    padding: 0px 15px;
+  }
+  .landing .text .content .button-one a {
+    right: 4%;
+  }
+  .landing .text .content .button-tow a {
+    left: 10px;
+  }
+  /* End landding */
+
+  /* Main-Head */
+  .main-head .container {
+    width: 100%;
+    top: 120%;
+    position: absolute;
+    height: 65%;
+    margin-left: 0;
+  }
+  .main-head .container .about {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px 15px;
+    margin-top: 30px;
+  }
+  .main-head .container .about p {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    font-size: 20px;
+    padding: 0px 15px;
+  }
+  .main-head .container .about-text {
+    top: 50%;
+    left: 0;
+  }
+  .main-head .container .about-text .small-table img {
+    width: 220px;
+    right: 3%;
+    top: 40%;
+  }
+  .main-head .container .about-text p {
+    width: 100%;
+    top: 5%;
+    padding: 13px 15px;
+  }
+  .main-head .container .about-text .button-three a {
+    font-size: 12px;
+    top: 72%;
+  }
+  /* End-Main-Head */
+
+  /* Start Head-three */
+  .head-three .container {
+    width: 100%;
+    height: 0;
+  }
+
+  .head-three .container .content {
+    position: absolute;
+    left: 0;
+    padding: 15px 15px;
+    margin-top: 70px;
+  }
+  .head-three .container {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    height: 0;
+    top: 147%;
+    margin-top: 501px;
+  }
+  .our-section .gallary {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  /* End Head-three */
+  /* Start Contact */
+  .contact .container {
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .contact .container .contact-us {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+  }
+  .contact .contact-us .top-form {
+    flex-direction: column;
+  }
+  .contact .contact-us .top-form form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .contact .contact-us .top-form ul {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .contact .contact-us .under-form {
+    flex-direction: column;
+  }
+  .contact .contact-us form label {
+    margin-bottom: 10px;
+  }
+  .contact .contact-us .under-form textarea {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .contact .contact-us .under-form a {
+    padding: 3px 70px;
+    margin: 0;
+  }
+  /*  End Contact */
+  /* Start Footer */
+  footer .container {
+    position: relative;
+  }
+  footer .container .menu {
+    padding-top: 15px;
+  }
+  footer .container .address {
+    padding-top: 15px;
+  }
+  footer .container .top a {
+    font-size: 18px;
+    padding: 0;
+    margin: 12px;
+    width: 100%;
+    display: flex;
+  }
+  footer .container .last .form-address {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    left: -4%;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+  }
+  footer .container .last li {
+    padding: 6px 0;
+  }
+  footer .container .last .form-address .subscribe {
+    padding: 0px;
+    font-size: 20px;
+    width: 49%;
+    height: 38px;
+  }
+  footer .container .last .form-address label {
+    width: 100%;
+  }
+  footer .container .last .form-address input {
+    height: 38px;
+    left: 10%;
+    position: absolute;
+    width: 55%;
+    height: 37px;
+  }
+  footer .container .address h3 {
+    position: absolute;
+    right: 35%;
+    top: 72%;
+    font-size: 28px;
+  }
+  footer .container .address h2 {
+    left: 7%;
+    font-size: 28px;
+    top: 32%;
+  }
+  footer .container .last ul {
+    flex-direction: column;
+    left: 7%;
+    top: 42%;
+  }
+
+  footer .last-p p {
+    width: 100%;
+    margin: 15px;
+  }
+}
+/* End Footer */
+@media (min-width: 1200px) {
+  footer .container .last ul {
+    left: 10%;
+  }
+  footer .container .last .form-address {
+    right: 11%;
+  }
+  footer .container .address h3 {
+    right: 37%;
+  }
+}
