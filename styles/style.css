@@ -483,6 +483,7 @@ footer .last-p {
     align-items: center;
     font-size: 30px;
     width: 100%;
+    z-index: 1;
   }
   header .container nav ul {
     display: none;
@@ -496,9 +497,6 @@ footer .last-p {
     position: absolute;
     right: 43px;
     top: 98%;
-  }
-  header .container nav a:hover {
-    color: black;
   }
   header .container nav li {
     margin: 14px 23px;
@@ -638,6 +636,7 @@ footer .last-p {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    margin-bottom: 15px;
   }
   .contact .contact-us .top-form ul {
     position: absolute;
