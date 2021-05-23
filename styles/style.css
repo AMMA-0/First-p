@@ -460,11 +460,13 @@ footer .last-p {
   header .container {
     width: 100%;
     display: flex;
+    position: absolute;
+    top: 0;
   }
   header .container .logo {
     position: absolute;
-    right: 45%;
-
+    right: 166px;
+    top: 0;
   }
   header .container .logo img {
     position: absolute;
@@ -488,8 +490,9 @@ footer .last-p {
     width: 100%;
     z-index: 1;
     position: absolute;
-    left: 3%;
-}
+    left: 0;
+    padding-left: 15px;
+  }
   header .container nav ul {
     display: none;
     background-color: rgb(0, 0, 0, 90%);
@@ -647,7 +650,6 @@ footer .last-p {
     justify-content: flex-start;
     flex-direction: column;
     margin-bottom: 15px;
-
   }
   .contact .contact-us .top-form ul {
     position: absolute;
